@@ -17,5 +17,6 @@ integrations:
             - quangson91@gmail.com
           on_success: always
           on_failure: always
+archive: true
 artifacts:
   - app/build/outputs/apk
