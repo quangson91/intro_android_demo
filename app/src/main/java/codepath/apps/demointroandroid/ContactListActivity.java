@@ -1,14 +1,12 @@
 package codepath.apps.demointroandroid;
 
-import java.util.ArrayList;
-
-import android.net.Uri;
-import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.CursorLoader;
 import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -17,6 +15,8 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
 
 public class ContactListActivity extends Activity {
 	

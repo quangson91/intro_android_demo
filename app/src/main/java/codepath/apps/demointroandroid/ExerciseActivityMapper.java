@@ -1,8 +1,8 @@
 package codepath.apps.demointroandroid;
 
-import java.util.HashMap;
-
 import android.app.Activity;
+
+import java.util.HashMap;
 
 public class ExerciseActivityMapper {
   private static ExerciseActivityMapper singleton;
